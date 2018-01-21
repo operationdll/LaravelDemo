@@ -1,0 +1,14 @@
+##drop table PersonalProfile;
+
+CREATE TABLE PersonalProfile(
+user_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+F_name VARCHAR(20) NOT NULL,
+L_name VARCHAR(20) NOT NULL,
+photo VARCHAR(50) NOT NULL,
+email VARCHAR(50) NOT NULL,
+phone VARCHAR(50) NOT NULL,
+provence VARCHAR(50) NOT NULL,
+city VARCHAR(50) NOT NULL,
+address VARCHAR(100) NOT NULL,
+short_desc VARCHAR(255)
+);
